@@ -72,23 +72,11 @@
   @include flexbox;
 }
 
-@media only screen and (min-width: 400px) {
-  .youtube-video {
-    width: 500px;
-  }
-}
-
 .youtube-section {
   display: flex;
   justify-content: center;
   background-image: url("../Imagenes/musicnotes.jpg");
   background-size: 1000px;
-}
-
-@media only screen and (min-width: 400px) {
-  .youtube-section {
-    width: 500px;
-  }
 }
 
 // .listado-menu {

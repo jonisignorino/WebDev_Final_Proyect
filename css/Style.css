@@ -50,11 +50,6 @@
   justify-content: center;
 }
 
-@media only screen and (min-width: 400px) {
-  .youtube-video {
-    width: 500px;
-  }
-}
 .youtube-section {
   display: flex;
   justify-content: center;
@@ -62,11 +57,6 @@
   background-size: 1000px;
 }
 
-@media only screen and (min-width: 400px) {
-  .youtube-section {
-    width: 500px;
-  }
-}
 .imagen-header {
   background-color: #008dff;
   padding: 40px 25px 40px 60px;
