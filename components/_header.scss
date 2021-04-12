@@ -1,0 +1,138 @@
+@import "../components/variables";
+
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  background-color: $color2;
+}
+
+.web-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 66px;
+  text-align: center;
+  color: $titlecolor;
+  text-decoration: none;
+  width: 590px;
+  height: 234px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 400px) {
+  .web-title {
+    width: 500px;
+  }
+}
+
+.web-title-container {
+  @include flexbox;
+}
+
+.minavbar {
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+  .navbar {
+    background-color: $color1;
+
+    .nav-link {
+      font-size: 19px;
+      color: white;
+      margin-right: 55px;
+      margin-left: 55px;
+    }
+  }
+}
+
+// .menu {
+//     font-family: 'Open Sans', sans-serif;
+//     background-color: $color1;
+//     padding: 44px 20px 15px 20px;
+//     font-family: 'Raleway', sans-serif;
+//     text-align: center;
+//     color: $titlecolor;
+//     text-decoration: none;
+//     width: 400px;
+//     height: 180px;
+//     display: flex;
+//     justify-content: center;
+// }
+
+.menu-container {
+  @include flexbox;
+}
+
+.youtube-video {
+  padding: 60px 25px 40px 50px;
+  width: 693px;
+  height: 429px;
+  @include flexbox;
+}
+
+.youtube-section {
+  display: flex;
+  justify-content: center;
+  background-image: url("../Imagenes/musicnotes.jpg");
+  background-size: 1000px;
+}
+
+// .listado-menu {
+//     text-decoration: none;
+//     list-style: none;
+// }
+
+.imagen-header {
+  background-color: #008dff;
+  padding: 40px 25px 40px 60px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+}
+
+// .menu1:hover, .menu2:hover,
+// .menu3:hover, .menu4:hover {
+//     transform: scale(1.5);
+// }
+
+// .menu1 {
+//     transition: all 1.5s ease;
+// }
+
+// .menu2 {
+//     transition: all 1.5s ease;
+// }
+
+// .menu3 {
+//     transition: all 1.5s ease;
+// }
+
+// .menu4 {
+//     transition: all 1.5s ease;
+// }
+
+.acerca-de-mi:hover {
+  transform: scale(1.5);
+}
+
+.about-me {
+  transition: all 1s ease;
+}
+
+.paragraph-1 {
+  transition: all 1s ease;
+}
+
+.body-container {
+  background-color: $color2;
+}
+
+body {
+  background-color: $color2;
+}
+
+// .listado-menu {
+//     list-style: none;
+//

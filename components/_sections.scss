@@ -1,0 +1,170 @@
+@import "../components/variables";
+
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  background-color: $color1;
+  align-items: center;
+}
+
+@mixin parrafos {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: $titlecolor;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-decoration: none;
+  background-color: $color2;
+  margin: 40px 40px 40px 40px;
+}
+
+/*Comentario de prueba*/
+
+/*Seccion1*/
+.about-me-container {
+  @include flexbox;
+
+  .about-me {
+    background-color: $color1;
+    padding: 42px 20px 15px 20px;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    text-align: center;
+    color: $textcolor;
+    text-decoration: underline;
+    width: 360px;
+    height: 138px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.paragraph-1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  color: $titlecolor;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-decoration: none;
+  background-color: $color2;
+  margin: 90px 60px 90px 60px;
+}
+/*Seccion1*/
+
+/*Seccion2*/
+.profesional-profile-container {
+  @include flexbox;
+
+  .profesional-profile {
+    background-color: $color1;
+    padding: 42px 20px 15px 20px;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    text-align: center;
+    color: $textcolor;
+    text-decoration: underline;
+    width: 360px;
+    height: 138px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.paragraph-2 {
+  @include parrafos;
+  margin: 60px 60px 60px 60px;
+}
+
+.paragraph-3 {
+  @include parrafos;
+  margin: 60px 60px 60px 60px;
+}
+
+.paragraph-4 {
+  @include parrafos;
+  margin: 60px 60px 60px 60px;
+}
+
+.profesional-container {
+  display: flex;
+  justify-content: center;
+  background-color: $color2;
+}
+
+.profesional-image {
+  margin: 40px 40px 40px 40px;
+}
+/*Seccion2*/
+
+/*Seccion3*/
+
+.customized-lessons-container {
+  @include flexbox;
+  padding: 40px 15px;
+}
+
+.customized-lessons {
+  background-color: $color1;
+  padding: 23px 20px 15px 20px;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: $textcolor;
+  text-decoration: underline;
+  width: 490px;
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-6 {
+  @include parrafos;
+}
+
+.paragraph-5 {
+  @include parrafos;
+}
+
+.image-lessons {
+  width: 100px;
+  background-color: $color2;
+}
+/*Seccion3*/
+
+/*Seccion4*/
+
+.contact-container {
+  @include flexbox;
+}
+
+.contact {
+  background-color: $color1;
+  padding: 42px 20px 15px 20px;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: $textcolor;
+  text-decoration: underline;
+  width: 360px;
+  height: 138px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-7 {
+  @include parrafos;
+}
+
+.paragraph-8 {
+  @include parrafos;
+}

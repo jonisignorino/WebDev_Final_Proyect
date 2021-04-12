@@ -1,0 +1,12 @@
+@import '../components/variables';
+
+.bootstrap-buttons {
+    display: flex;
+    justify-content: center;
+    background-color: $color2;
+    padding: 40px;
+}
+
+.body-container {
+    background-color: $colorfondo ;
+}

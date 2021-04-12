@@ -1,0 +1,17 @@
+@import '../components/variables';
+
+.image-footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: $color2;
+
+    footer {
+        font-size: 16px;
+        font-style: oblique;
+        color: $titlecolor;
+        letter-spacing: 2px;
+        text-align: justify;
+        text-decoration: solid;
+        background-color: whitesmoke;
+    }
+}
