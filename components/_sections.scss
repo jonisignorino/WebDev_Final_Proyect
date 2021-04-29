@@ -82,8 +82,15 @@
 }
 
 .paragraph-2 {
-  @include parrafos;
-  margin: 130px ​180px 60px 90px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: $titlecolor;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-decoration: none;
+  background-color: $color2;
+  margin: 175px 40px 40px 40px;
 }
 
 .paragraph-3 {
@@ -131,11 +138,27 @@
 }
 
 .paragraph-6 {
-  @include parrafos;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: $titlecolor;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-decoration: none;
+  background-color: $color2;
+  margin: 90px 40px 90px 40px;
 }
 
 .paragraph-5 {
-  @include parrafos;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: $titlecolor;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-decoration: none;
+  background-color: $color2;
+  margin: 90px 40px 90px 40px;
 }
 
 .image-lessons {
