@@ -46,6 +46,10 @@
   }
 }
 
+.paragraph-1-container {
+  display: flex;
+  justify-content: center;
+}
 .paragraph-1 {
   font-family: "Raleway", sans-serif;
   font-size: 17px;
@@ -55,18 +59,30 @@
   text-align: justify;
   text-decoration: none;
   background-color: $color2;
-  margin: 140px 200px 139px 200px;
+  margin: 140px 0 139px 0;
+  max-width: 900px;
+}
+
+@media only screen and (max-width: 767px) {
+  .paragraph-1 {
+    margin: 40px 0px 40px 0px;
+  }
 }
 
 /*Seccion1*/
 
 /*Seccion2*/
+
+.profesional-image img {
+  width: 100%;
+}
+
 .profesional-profile-container {
   @include flexbox;
 
   .profesional-profile {
     background-color: $color1;
-    padding: 42px 20px 15px 20px;
+    padding: 42px 20px 42px 20px;
     box-sizing: border-box;
     font-family: "Dancing Script", cursive;
     font-size: 50px;
@@ -74,7 +90,7 @@
     color: $textcolor;
     text-decoration: underline;
     width: 440px;
-    height: 138px;
+    height: auto;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -107,11 +123,22 @@
   display: flex;
   justify-content: center;
   background-color: $color2;
+
+  @media only screen and (max-width: 767px) {
+    display: block;
+  }
 }
 
 .profesional-image {
   margin: 40px 40px 40px 40px;
+  width: 800px;
+  flex-shrink: 0;
+
+  @media only screen and (max-width: 767px) {
+    width: auto;
+  }
 }
+
 /*Seccion2*/
 
 /*Seccion3*/
@@ -135,6 +162,12 @@
   text-decoration: none;
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 767px) {
+    width: auto;
+    height: auto;
+    padding: 23px 20px 23px 20px;
+  }
 }
 
 .paragraph-6 {

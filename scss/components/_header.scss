@@ -20,9 +20,11 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 767px) {
   .web-title {
     width: 500px;
+    font-size: 40px;
+    height: auto;
   }
 }
 
@@ -67,9 +69,27 @@
 
 .youtube-video {
   padding: 60px 25px 40px 50px;
-  width: 693px;
-  height: 429px;
+  max-width: 960px;
+  width: 100%;
   @include flexbox;
+
+  @media screen and (max-width: 767px) {
+    padding: 0;
+  }
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  width: 100%;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .youtube-section {
@@ -79,6 +99,7 @@
   background-size: 1000px;
 }
 
+//fdsfsdfsdf
 // .listado-menu {
 //     text-decoration: none;
 //     list-style: none;
