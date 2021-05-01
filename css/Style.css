@@ -51,7 +51,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: whitesmoke;
 }
 @media screen and (max-width: 767px) {
   .youtube-video {
@@ -372,7 +371,7 @@ body {
 }
 
 .body-container {
-  background-color: #20002B;
+  background-color: #20002b;
 }
 
 .image-footer-container {
