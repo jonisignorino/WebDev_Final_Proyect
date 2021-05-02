@@ -25,6 +25,32 @@
 
 /*Comentario de prueba*/
 
+.go-play-container {
+  @include flexbox;
+
+  .go-play {
+    background-color: $color1;
+    padding: 20px 20px 15px 20px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: $textcolor;
+    text-decoration: underline;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .paragraph-1 {
+    padding: 0px;
+  }
+}
+
 /*Seccion1*/
 .about-me-container {
   @include flexbox;

@@ -110,6 +110,35 @@ body {
 }
 
 /*Comentario de prueba*/
+.go-play-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ff7171;
+  align-items: center;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+}
+.go-play-container .go-play {
+  background-color: #ff7171;
+  padding: 20px 20px 15px 20px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .paragraph-1 {
+    padding: 0px;
+  }
+}
 /*Seccion1*/
 .about-me-container {
   display: flex;
